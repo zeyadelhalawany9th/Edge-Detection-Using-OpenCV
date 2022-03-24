@@ -153,6 +153,9 @@ class functions():
         Kx = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]], np.float32)
         Ky = np.array([[1, 2, 1], [0, 0, 0], [-1, -2, -1]], np.float32)
 
+
+
+
         Ix = ndimage.filters.convolve(image, Kx)
         Iy = ndimage.filters.convolve(image, Ky)
 
